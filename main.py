@@ -27,7 +27,8 @@ Computersmap = False #this will be the full map and what it should look like how
 
 
 
+#all game functions should be dealt with before it hits this point
+
 engine.renderScreen(Visualmap) # this renders the screen, all it needs is what the player sees
-engine.renderScreen(
 
 #end of loop#
