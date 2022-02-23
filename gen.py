@@ -13,8 +13,6 @@ def FreshMap (sise): #this just auto makes a array to the sise needed and will a
             multi_list[row][col]= "[]" # is what a blank square will be rep'ed by
     return multi_list
 
-def FullMap (mapinfo,bombsx,bombsy): #this will generate a "hidden map", this is how the map will end up being showm
-    pass
 
 
 def bombMaker (bombs,sise):
@@ -24,6 +22,7 @@ def bombMaker (bombs,sise):
     while x < bombs:
         locationsX.append(random.randint(0,sise))
         locationsY.append(random.randint(0,sise))
+        x+=1
     return locationsX, locationsY
         
 
