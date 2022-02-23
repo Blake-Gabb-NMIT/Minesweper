@@ -28,4 +28,6 @@ Computersmap = False #this will be the full map and what it should look like how
 
 
 engine.renderScreen(Visualmap) # this renders the screen, all it needs is what the player sees
+engine.renderScreen(
+
 #end of loop#
